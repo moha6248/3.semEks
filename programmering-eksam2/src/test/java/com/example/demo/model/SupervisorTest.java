@@ -18,12 +18,12 @@ class SupervisorTest {
         assertEquals("nf@kea.dk", supervisor.getEmail());
         System.out.println("\033[0;1m" + "Test completed");
     }
-    /*@Test
+    @Test
     void supervisorAreTheSame(){
         Supervisor john = new Supervisor(1L,"John", "Doe","jd@kea.dk");
         Supervisor doe = new Supervisor(2L,"John", "Doe","jd@kea.dk");
         assertEquals(john, doe);
-    }*/
+    }
     @Test
     void supervisorDetailChange() {
         supervisor.setEmail("emailIsChanged@kea.dk");
